@@ -1,3 +1,5 @@
+// Escrevendo via console.log
+
 var nome = 'Michael';
 const ip = '127.0.0.1';
 

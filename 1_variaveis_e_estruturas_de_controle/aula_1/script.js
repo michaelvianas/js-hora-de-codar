@@ -1,3 +1,5 @@
+// Primeiros passos na linguagem, aprendendo conceito de variável
+
 let nome = "Michael";
 
 console.log(`O meu nome é ${nome}`);

@@ -8,14 +8,20 @@ function imprimirNumero(numero) {
   console.log(`Número é ${numero}`);
 }
 
-imprimirNumero(12);
-imprimirNumero(13);
-imprimirNumero(14);
-imprimirNumero(15);
+imprimirNumero(2);
+imprimirNumero(4);
+imprimirNumero(6);
+imprimirNumero(8);
 
-const numeroAleatorio = function() {
+const numeroAleatorioParaCima = function() {
+  //console.log(Math.ceil(Math.random() * 100));
+  console.log(Math.random());
   console.log(Math.ceil(Math.random() * 100));
 }
 
-numeroAleatorio();
-numeroAleatorio();
+const numeroAleatorioParaBaixo = function() {
+  //console.log(Math.ceil(Math.random() * 100));
+  console.log(Math.floor(Math.random() * 100));
+}
+
+numeroAleatorioParaCima();
